@@ -1,0 +1,21 @@
+#brands-block .swiper {
+  height: 100px;
+}
+#brands-block .swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-left: 1px solid rgba(66, 66, 66, 0.5);
+}
+#brands-block .swiper-slide:first-child {
+  border-left: unset;
+}
+#brands-block .swiper-slide img {
+  width: 100%;
+  height: 80px;
+  object-fit: contain;
+}
+
+/*============ MEDIA ==================*/
+
+/*# sourceMappingURL=block.css.map */

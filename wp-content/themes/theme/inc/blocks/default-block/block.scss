@@ -1,0 +1,26 @@
+@import '../../../assets/css/_colors.scss';
+
+@function calcFluidFontSize($f-min, $f-max, $v-min, $v-max) {
+	$k: ($f-max - $f-min)/($v-max - $v-min);
+	$b: $f-min - $k * $v-min;
+
+	$b: $b * 1px;
+
+	@return calc(#{$k} * 100vw + #{$b});
+}
+/*============ MEDIA ==================*/
+@media screen and (min-width: 992px) and (max-width: 1221px) {
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 576px) {
+
+}

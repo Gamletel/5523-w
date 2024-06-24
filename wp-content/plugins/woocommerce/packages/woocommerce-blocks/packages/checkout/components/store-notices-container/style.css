@@ -1,0 +1,21 @@
+/* Error: Undefined mixin.
+ *    ,
+ * 67 | /     @include breakpoint("<782px") {
+ * 68 | |         position: fixed;
+ * 69 | |         top: 10px;
+ * 70 | |         left: 0;
+ * 71 | |         bottom: auto;
+ * 72 | \     }
+ *    '
+ *   style.scss 67:2  root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: Undefined mixin.\a    \2577 \a 67 \2502  \250c      @include breakpoint("<782px") {\a 68 \2502  \2502          position: fixed;\a 69 \2502  \2502          top: 10px;\a 70 \2502  \2502          left: 0;\a 71 \2502  \2502          bottom: auto;\a 72 \2502  \2514      }\a    \2575 \a   style.scss 67:2  root stylesheet';
+}

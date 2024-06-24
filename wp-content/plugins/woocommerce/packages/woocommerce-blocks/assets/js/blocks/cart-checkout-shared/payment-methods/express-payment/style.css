@@ -1,0 +1,20 @@
+/* Error: Undefined mixin.
+ *    ,
+ * 31 | /     @include breakpoint("<782px") {
+ * 32 | |         .wc-block-components-express-payment__event-buttons {
+ * 33 | |             grid-template-columns: 1fr;
+ * 34 | |         }
+ * 35 | \     }
+ *    '
+ *   style.scss 31:2  root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: Undefined mixin.\a    \2577 \a 31 \2502  \250c      @include breakpoint("<782px") {\a 32 \2502  \2502          .wc-block-components-express-payment__event-buttons {\a 33 \2502  \2502              grid-template-columns: 1fr;\a 34 \2502  \2502          }\a 35 \2502  \2514      }\a    \2575 \a   style.scss 31:2  root stylesheet';
+}

@@ -1,0 +1,82 @@
+@font-face {
+    font-display: swap;
+    font-family: "OpenSans";
+    font-style: normal;
+    font-weight: 300;
+    src: url("OpenSans-Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "OpenSans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("OpenSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "OpenSans";
+    font-style: normal;
+    font-weight: 500;
+    src: url("OpenSans-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "OpenSans";
+    font-style: normal;
+    font-weight: 600;
+    src: url("OpenSans-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "OpenSans";
+    font-style: normal;
+    font-weight: 700;
+    src: url("OpenSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "OpenSans";
+    font-style: normal;
+    font-weight: 900;
+    src: url("OpenSans-ExtraBold.ttf") format("truetype");
+}
+
+/*GEOLOGICA*/
+
+@font-face {
+    font-display: swap;
+    font-family: "Geologica", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    src: url("Geologica-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Geologica", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    src: url("Geologica-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Geologica", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    src: url("Geologica-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'Avenir Next Cyr Regular';
+    src: url('AvenirNextCyr-Regular.eot');
+    src: url('AvenirNextCyr-Regular.eot?#iefix') format('embedded-opentype'),
+    url('AvenirNextCyr-Regular.woff') format('woff'),
+    url('AvenirNextCyr-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
